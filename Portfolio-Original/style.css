@@ -1,0 +1,108 @@
+/*--font-style*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --primary-color: #2E475D;
+    --secobd-color: #497cff;
+}
+
+/* common-styles */
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--primary-color);
+
+}
+::selection{
+    color: aquamarine;
+}
+
+/*navbar */
+
+/*.collapse .navbar-nav .nav-item a {
+    font-weight: 700;
+
+    -webkit-text-stroke: var(--secobd-color);
+
+    position: relative;
+
+}
+
+.collapse .navbar-nav .nav-item a::before {
+
+   content: "HOME";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: var(--secobd-color);
+    border-radius: 3px solid --secobd-color;
+    transition: 1s all ease-in-out;
+
+}
+
+.collapse .navbar-nav .nav-item a:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 20px --secobd-color);
+}*/
+.collapse .navbar-nav .nav-item a {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.collapse .navbar-nav .nav-item a:hover {
+    color: var(--secobd-color);
+
+}
+
+/*Home*/
+
+
+#home{
+    padding: 55px;
+}
+#contentOne h1{
+    font-size: 50px;
+}
+#contentOne p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn2{
+    background-color: #0A66C2;
+    letter-spacing: 2px;
+    color: white;
+
+
+}
+.btn3{
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
+
+}
+.btn4{
+    letter-spacing: 2px;
+    background: #d62976;
+    color: white;
+
+
+}
+
+#profileP img{
+border-radius: 50%;
+border: 5px solid #E3E5E9;
+margin-top: 10px;
+}

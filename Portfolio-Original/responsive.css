@@ -1,0 +1,56 @@
+@media (max-width: 1440px) {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 361px) {
+
+#navbar1, #navbar2{
+    /*navbar*/
+    gap: 0px !important;
+    display: inline-flex;
+}
+
+/*home*/
+    #contentOne h1 {
+        font-size: 30px;
+    }
+
+    #contentOne p {
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    #contentOne .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+#home1{
+    margin-top: -538px;
+    margin-left: 100px;
+    height: fit-content;
+}
+
+    #profileP img{
+        width: 90px !important; 
+        height: 90px !important;
+    }
+
+.navbar-toggler, .navbar-toggler-icon{
+    width: 20px;
+    height: 20px;
+}
+.navbar-toggler-icon{
+    margin-left: -10px;
+    margin-top: -12px;
+}
+
+
+}
